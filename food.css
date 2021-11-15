@@ -1,9 +1,6 @@
 
 body, html {
   height: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
   width: 100%;
 }
 td{
@@ -12,6 +9,9 @@ td{
   width: 20%;
   position: center;
   text-align: center;
+}
+h2{
+  font-style: normal;
 }
 tr {
   border-width: 2px;
@@ -26,25 +26,19 @@ img{
 
 h1 {
   text-align: center;
-  position:absolute;
-  top: 20%;
-  left: 43%;
+  position: center;
   font-size: 200px;
 }
 .parallax {
-  /* The image used */
-  background-image: url("foodWorld.png");
-
-  /* Set a specific height */
-  min-height: 1000px;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url(foodWorld.png);
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: trasnparent;
+  background-color: transparent;
   overflow: hidden;
   font-family: "Lucida Console", "Courier New", monospace;
 }
@@ -80,7 +74,7 @@ h1 {
 .paratext {
   color: black;
   background-color: #E3D883;
-  height: 10000px
+  height: 2000px
 }
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
