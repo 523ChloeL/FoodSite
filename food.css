@@ -19,8 +19,8 @@ tr {
   border-style: dashed;
 }
 img{
-  max-width: 50%;
-  max-height: 50%;
+  width: 400px;
+  height: 500px;
   position: center;
   text-align: center;
 }
@@ -72,11 +72,9 @@ h1 {
     background-size: cover;
     background-position: center;
     height: 130vh;
-}
-.paratext {
-  color: black;
-  background-color: #E3D883;
-  height: 2000px
+    color: black;
+    background-color: #E3D883;
+    height: 3000px
 }
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
